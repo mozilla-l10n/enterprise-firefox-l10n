@@ -6,6 +6,9 @@
     "browser/branding/enterprise/locales/en-US/brand.properties",
     "browser/enterprise/enterprise.ftl",
     "browser/enterprise/felt.ftl",
-    "browser/locales/l10n.toml"
+    "browser/locales/l10n.toml",
+    "devtools/client/locales/l10n.toml",
+    "devtools/shared/locales/l10n.toml",
+    "toolkit/locales/l10n.toml"
   ]
 }
