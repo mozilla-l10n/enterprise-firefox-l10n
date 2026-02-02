@@ -21,7 +21,7 @@ jobs:
       paths: ${{ steps.config.outputs.paths }}
     steps:
       - name: Checkout l10n:main
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with: { ref: main, fetch-depth: 0 }
       - name: Refresh l10n:update
         run: git push origin HEAD:update || true
@@ -48,7 +48,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout l10n:update
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with: { ref: update, path: l10n }
       - name: Checkout firefox:${{ matrix.ref }}
         uses: actions/checkout@v4
@@ -58,7 +58,7 @@ jobs:
           path: firefox
           sparse-checkout: |
             ${{ needs.prepare.outputs.paths }}
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
@@ -88,7 +88,7 @@ jobs:
       - name: Checkout l10n:update
         uses: actions/checkout@v4
         with: { ref: update }
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
