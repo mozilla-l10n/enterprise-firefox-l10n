@@ -1,0 +1,107 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+name: Update
+
+on:
+  schedule:
+    - cron: "0 6,12,18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    outputs:
+      branches: ${{ steps.config.outputs.branches }}
+      paths: ${{ steps.config.outputs.paths }}
+    steps:
+      - name: Checkout l10n:main
+        uses: actions/checkout@v4
+        with: { ref: main, fetch-depth: 0 }
+      - name: Refresh l10n:update
+        run: git push origin HEAD:update || true
+      - name: Get list of branches and paths
+        id: config
+        run: |
+          # Store the list of branches as a JSON array
+          echo "branches=$(jq -c '.branches' < .github/update-config.json)" >> "$GITHUB_OUTPUT"
+
+          # Store the list of paths as a multiline list
+          # Bash multiline version
+          # https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#multiline-strings
+          {
+            echo 'paths<<EOF'
+            jq -r ".paths[]" < .github/update-config.json
+            echo EOF
+          } >> "$GITHUB_OUTPUT"
+  update:
+    needs: prepare
+    strategy:
+      max-parallel: 1
+      matrix:
+        ref: ${{ fromJSON(needs.prepare.outputs.branches) }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout l10n:update
+        uses: actions/checkout@v4
+        with: { ref: update, path: l10n }
+      - name: Checkout firefox:${{ matrix.ref }}
+        uses: actions/checkout@v4
+        with:
+          repository: mozilla-firefox/firefox
+          ref: ${{ matrix.ref }}
+          path: firefox
+          sparse-checkout: |
+            ${{ needs.prepare.outputs.paths }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: l10n/.github/scripts/requirements.txt
+      - run: pip install -r l10n/.github/scripts/requirements.txt
+      - run: >
+          python .github/scripts/update.py
+          --branch ${{ matrix.ref }}
+          --commit $(cd ../firefox && git rev-parse --short HEAD)
+          --firefox ../firefox
+          --configs browser/locales/l10n.toml mobile/android/locales/l10n.toml
+        working-directory: l10n
+      - name: git config
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - run: git add .
+        working-directory: l10n
+      - name: git commit & push any changes
+        run: |
+          git diff-index --quiet HEAD || (git commit -F .update_msg && git push)
+        working-directory: l10n
+  cleanup:
+    needs: update
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout l10n:update
+        uses: actions/checkout@v4
+        with: { ref: update }
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: .github/scripts/requirements.txt
+      - run: pip install -r .github/scripts/requirements.txt
+      - run: python .github/scripts/prune.py
+      - name: git config
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - run: git add .
+      - name: git commit & push any changes
+        run: git diff-index --quiet HEAD || (git commit -F .prune_msg && git push)
+      - run: gh pr create --base main --head update --title "Update messages" --body "" || true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
