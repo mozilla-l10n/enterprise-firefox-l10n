@@ -97,6 +97,8 @@ def update(
         if branch == cfg_automation["head"]:
             add_config(fx_root, cfg_name, fixed_config_paths, source_dirs)
 
+    source_files = source_files.intersection(join(fx_root, path) for path in cfg_automation['paths'])
+
     messages: dict[str, list[str]] = {}
     new_files = 0
     updated_files = 0
@@ -207,14 +209,5 @@ if __name__ == "__main__":
     new_files, updated_files, source_dirs = update(
         cfg_automation, args.branch, args.firefox, args.configs
     )
-
-    if cfg_automation["paths"] != source_dirs:
-        # Write back updated configuration, making sure that the list of paths
-        # is a superset of the configuration across all branches.
-        cfg_automation["paths"] = sorted(
-            list(set(cfg_automation["paths"] + source_dirs))
-        )
-        with open(config_file, "w") as file:
-            json.dump(cfg_automation, file, indent=2, sort_keys=True)
 
     write_commit_msg(args, new_files, updated_files)

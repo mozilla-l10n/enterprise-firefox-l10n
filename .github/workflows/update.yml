@@ -50,10 +50,10 @@ jobs:
       - name: Checkout l10n:update
         uses: actions/checkout@v6
         with: { ref: update, path: l10n }
-      - name: Checkout firefox:${{ matrix.ref }}
+      - name: Checkout enterprise-firefox:${{ matrix.ref }}
         uses: actions/checkout@v4
         with:
-          repository: mozilla-firefox/firefox
+          repository: mozilla/enterprise-firefox
           ref: ${{ matrix.ref }}
           path: firefox
           sparse-checkout: |
@@ -69,7 +69,7 @@ jobs:
           --branch ${{ matrix.ref }}
           --commit $(cd ../firefox && git rev-parse --short HEAD)
           --firefox ../firefox
-          --configs browser/locales/l10n.toml mobile/android/locales/l10n.toml
+          --configs browser/locales/l10n.toml
         working-directory: l10n
       - name: git config
         run: |

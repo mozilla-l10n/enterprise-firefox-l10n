@@ -1,24 +1,11 @@
 {
-  "branches": [
-    "main",
-    "beta",
-    "release",
-    "esr140",
-    "esr115"
-  ],
+  "branches": ["main"],
   "head": "main",
   "paths": [
-    "browser/branding/official/locales",
-    "browser/extensions/formautofill/locales",
-    "browser/extensions/report-site-issue/locales",
-    "browser/locales",
-    "devtools/client/locales",
-    "devtools/shared/locales",
-    "devtools/startup/locales",
-    "dom/locales",
-    "mobile/android/locales",
-    "netwerk/locales",
-    "security/manager/locales",
-    "toolkit/locales"
+    "browser/branding/enterprise/locales/en-US/brand.ftl",
+    "browser/branding/enterprise/locales/en-US/brand.properties",
+    "browser/enterprise/enterprise.ftl",
+    "browser/enterprise/felt.ftl",
+    "browser/locales/l10n.toml"
   ]
 }
