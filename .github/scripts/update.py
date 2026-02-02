@@ -103,7 +103,7 @@ def update(
     new_files = 0
     updated_files = 0
     for fx_path in source_files:
-        rel_path = relpath(fx_path, fx_root).replace("/locales/en-US", "")
+        rel_path = "en-US/" + relpath(fx_path, fx_root).replace("/locales/en-US", "")
         makedirs(dirname(rel_path), exist_ok=True)
 
         try:
