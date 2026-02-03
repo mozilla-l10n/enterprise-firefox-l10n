@@ -6,6 +6,8 @@
     "browser/branding/enterprise/locales/en-US/brand.properties",
     "browser/locales/en-US/browser/enterprise/enterprise.ftl",
     "browser/locales/en-US/browser/enterprise/felt.ftl",
+    "browser/locales/en-US/chrome/overrides/enterprise.properties",
+    "dom/locales/en-US/chrome/enterprise.properties",
     "browser/locales/l10n.toml",
     "devtools/client/locales/l10n.toml",
     "devtools/shared/locales/l10n.toml",
