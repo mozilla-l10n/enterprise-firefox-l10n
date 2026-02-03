@@ -1,11 +1,11 @@
 {
-  "branches": ["main"],
-  "head": "main",
+  "branches": ["enterprise-main"],
+  "head": "enterprise-main",
   "paths": [
     "browser/branding/enterprise/locales/en-US/brand.ftl",
     "browser/branding/enterprise/locales/en-US/brand.properties",
-    "browser/enterprise/enterprise.ftl",
-    "browser/enterprise/felt.ftl",
+    "browser/locales/en-US/browser/enterprise/enterprise.ftl",
+    "browser/locales/en-US/browser/enterprise/felt.ftl",
     "browser/locales/l10n.toml",
     "devtools/client/locales/l10n.toml",
     "devtools/shared/locales/l10n.toml",
