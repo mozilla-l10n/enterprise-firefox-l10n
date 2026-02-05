@@ -85,6 +85,8 @@ def update(
     print(f"source: {branch} at {fx_root}")
     fx_root = abspath(fx_root)
 
+    cfg_paths = [join(fx_root, path) for path in cfg_automation['paths']]
+
     fixed_config_paths: set[str] = set()
     source_dirs: set[str] = set()
     source_files: set[str] = set()
@@ -93,11 +95,13 @@ def update(
         if not exists(cfg_path):
             exit(f"Config file not found: {cfg_path}")
         paths = L10nConfigPaths(cfg_path)
-        source_files.update(fx_path for fx_path, _ in paths.all())
+        source_files.update(
+            fx_path
+            for fx_path, _ in paths.all()
+            if any(fx_path.startswith(cfg_path) for cfg_path in cfg_paths)
+        )
         if branch == cfg_automation["head"]:
             add_config(fx_root, cfg_name, fixed_config_paths, source_dirs)
-
-    source_files = source_files.intersection(join(fx_root, path) for path in cfg_automation['paths'])
 
     messages: dict[str, list[str]] = {}
     new_files = 0

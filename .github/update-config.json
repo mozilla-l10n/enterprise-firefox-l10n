@@ -2,10 +2,8 @@
   "branches": ["enterprise-main"],
   "head": "enterprise-main",
   "paths": [
-    "browser/branding/enterprise/locales/en-US/brand.ftl",
-    "browser/branding/enterprise/locales/en-US/brand.properties",
-    "browser/locales/en-US/browser/enterprise/enterprise.ftl",
-    "browser/locales/en-US/browser/enterprise/felt.ftl",
+    "browser/branding/enterprise/locales/en-US/",
+    "browser/locales/en-US/browser/enterprise/",
     "browser/locales/en-US/chrome/overrides/enterprise.properties",
     "dom/locales/en-US/chrome/enterprise.properties",
     "browser/locales/l10n.toml",
