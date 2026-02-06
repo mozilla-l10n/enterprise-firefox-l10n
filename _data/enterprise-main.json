@@ -1,5 +1,64 @@
 {
+  "en-US/browser/branding/enterprise/brand.ftl": [
+    "-brand-shorter-name",
+    "-brand-short-name",
+    "-brand-shortcut-name",
+    "-brand-full-name",
+    "-brand-product-name",
+    "-vendor-short-name",
+    "trademarkInfo"
+  ],
+  "en-US/browser/branding/enterprise/brand.properties": [
+    "brandShorterName",
+    "brandShortName",
+    "brandFullName"
+  ],
+  "en-US/browser/browser/enterprise/enterprise-policies-descriptions.ftl": [
+    "policy-BlocklistDomainBrowsedTelemetry",
+    "policy-DownloadTelemetry",
+    "policy-EnterpriseStorageEncryption",
+    "policy-PrintPageTelemetry"
+  ],
+  "en-US/browser/browser/enterprise/enterprise.ftl": [
+    "enterprise-toolbar-button",
+    "enterprise-panel",
+    "enterprise-panel-alert",
+    "enterprise-panel-information",
+    "enterprise-panel-learn-more",
+    "enterprise-panel-sign-out-btn",
+    "enterprise-signout-prompt-title",
+    "enterprise-signout-prompt-message",
+    "enterprise-signout-prompt-checkbox-label",
+    "enterprise-signout-prompt-primary-btn-label",
+    "restart-forced-title",
+    "restart-forced-heading",
+    "restart-forced-intro",
+    "window-restoration-info",
+    "restart-button-label",
+    "extension-firefox-enterprise-light-name",
+    "extension-firefox-enterprise-light-description",
+    "extension-firefox-enterprise-dark-name",
+    "extension-firefox-enterprise-dark-description",
+    "blocked-by-policy-title-enterprise",
+    "neterror-blocked-by-policy-page-title-enterprise",
+    "neterror-blocked-by-policy-contact-admin"
+  ],
   "en-US/browser/browser/enterprise/felt.ftl": [
-    "felt-pending-action-notification"
+    "felt-window-title",
+    "felt-sso-title",
+    "felt-sso-input-email",
+    "felt-sso-continue-btn",
+    "felt-pending-action-notification",
+    "felt-powered-by",
+    "felt-version",
+    "felt-browser-error-multiple-crashes",
+    "felt-browser-error-connection",
+    "felt-error-network"
+  ],
+  "en-US/browser/chrome/overrides/enterprise.properties": [
+    "blockedByPolicyEnterprise"
+  ],
+  "en-US/dom/chrome/enterprise.properties": [
+    "blockedByPolicyEnterprise"
   ]
 }
