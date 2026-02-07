@@ -25,3 +25,7 @@ restart-button-label = Riavvia { -brand-short-name }
 extension-firefox-enterprise-light-name = Firefox Enterprise chiaro
 extension-firefox-enterprise-light-description = Un delicato tema pastello con un accenno di luce mattutina nell’angolo
 extension-firefox-enterprise-dark-name = Firefox Enterprise scuro
+extension-firefox-enterprise-dark-description = Un tema notturno caratterizzato da zone scure con colore blu petrolio e delicate sfumature di blu più chiare.
+blocked-by-policy-title-enterprise = L’accesso a questo sito è soggetto a restrizioni
+neterror-blocked-by-policy-page-title-enterprise = L’accesso a questo sito è soggetto a restrizioni
+neterror-blocked-by-policy-contact-admin = Se ritieni che si tratti di un errore o hai bisogno di accedervi per motivi di lavoro, contatta il tuo amministratore IT.
