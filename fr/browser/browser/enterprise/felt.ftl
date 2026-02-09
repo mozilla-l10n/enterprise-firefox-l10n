@@ -6,5 +6,19 @@ felt-pending-action-notification = Merci de patienter pendant le démarrage de {
 felt-powered-by = Propulsé par { -vendor-short-name }
 # $version is the version of Felt, not the version of Firefox.
 felt-version = Version { $version }
-felt-window-title = { -brand-short-name } — Connexion
+felt-window-title = { -brand-short-name } — Identification
 felt-sso-title = Connexion
+felt-sso-input-email =
+    .description = Utilisez votre adresse courriel professionnelle
+    .label = Courriel professionnel
+felt-sso-continue-btn =
+    .label = Continuer
+
+## Error details when launching the browser crashes
+
+felt-browser-error-multiple-crashes = { -brand-short-name } a planté a de nombreuses reprises.
+felt-browser-error-connection = Impossible de se connecter à la console. Merci de contacter votre administrateur.
+
+## Network error details.
+
+felt-error-network = Erreur réseau inconnue
