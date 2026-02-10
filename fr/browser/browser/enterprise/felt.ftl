@@ -9,8 +9,8 @@ felt-version = Version { $version }
 felt-window-title = { -brand-short-name } — Identification
 felt-sso-title = Connexion
 felt-sso-input-email =
-    .description = Utilisez votre adresse courriel professionnelle
-    .label = Courriel professionnel
+    .description = Utilisez votre adresse e-mail professionnelle
+    .label = E-mail professionnel
 felt-sso-continue-btn =
     .label = Continuer
 
