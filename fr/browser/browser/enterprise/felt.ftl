@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 felt-pending-action-notification = Merci de patienter pendant le démarrage de { -brand-short-name }…
-felt-powered-by = Propulsé par { -vendor-short-name }
+felt-powered-by = Réalisé par { -vendor-short-name }
 # $version is the version of Felt, not the version of Firefox.
 felt-version = Version { $version }
 felt-window-title = { -brand-short-name } — Identification

@@ -4,5 +4,5 @@
 
 policy-BlocklistDomainBrowsedTelemetry = Activer et configurer l’enregistrement des évènements de sécurité lorsque { -brand-short-name } bloque la visite d’un domaine présent sur la liste de blocage.
 policy-DownloadTelemetry = Activer et configurer l’enregistrement des évènements de sécurité lorsqu’un téléchargement est déclenché.
-policy-EnterpriseStorageEncryption = Activer l’utilisation d’un mot de passe primaire géré par l’entreprise pour le stockage chiffré
+policy-EnterpriseStorageEncryption = Activer la gestion du mot de passe principal par l’entreprise pour le stockage chiffré.
 policy-PrintPageTelemetry = Activer et configurer l’enregistrement des évènements de sécurité lorsqu’une impression est lancée.
