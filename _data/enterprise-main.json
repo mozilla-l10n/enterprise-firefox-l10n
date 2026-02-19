@@ -17,7 +17,8 @@
     "policy-BlocklistDomainBrowsedTelemetry",
     "policy-DownloadTelemetry",
     "policy-EnterpriseStorageEncryption",
-    "policy-PrintPageTelemetry"
+    "policy-PrintPageTelemetry",
+    "policy-Sync"
   ],
   "en-US/browser/browser/enterprise/enterprise.ftl": [
     "enterprise-toolbar-button",
