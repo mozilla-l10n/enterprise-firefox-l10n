@@ -54,7 +54,15 @@
     "felt-version",
     "felt-browser-error-multiple-crashes",
     "felt-browser-error-connection",
-    "felt-error-network"
+    "felt-error-network",
+    "felt-updates-title",
+    "felt-updates-checking",
+    "felt-updates-application",
+    "felt-updates-uptodate",
+    "felt-updates-error-messages",
+    "felt-error-contact-admin",
+    "felt-error-unsupported-system-contact-admin",
+    "felt-error-checking-failed-contact-admin"
   ],
   "en-US/browser/chrome/overrides/enterprise.properties": [
     "blockedByPolicyEnterprise"
