@@ -23,9 +23,6 @@ felt-browser-error-no-network =
 
 ## Error details when launching the browser crashes
 
-felt-browser-error-multiple-crashes = { -brand-short-name } crashed multiple times.
-felt-browser-error-connection = Unable to connect to the console. Please contact your administrator.
-felt-browser-error-sso-timeout = Sign-in timed out. Please try again, or contact your administrator if the problem persists.
 felt-browser-error-sso-timeout2 =
     .heading = Sign-in timed out
     .message = Please try again, or contact your administrator if the problem persists.
@@ -45,7 +42,6 @@ felt-updates-application = Applying updates…
 felt-updates-uptodate = { -brand-short-name } is up to date
 felt-error-updates =
     .heading = An error occurred while applying updates…
-felt-updates-error-messages = An error occurred while applying updates…
 felt-error-contact-admin = Please contact your administrator.
 felt-error-unsupported-system-contact-admin = Your current system does not support this new version. Please contact your administrator.
 felt-error-checking-failed-contact-admin = Unexpected failure while checking for an update. Please contact your administrator.
