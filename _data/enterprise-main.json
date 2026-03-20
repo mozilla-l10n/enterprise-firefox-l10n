@@ -54,6 +54,7 @@
     "felt-version",
     "felt-browser-error-multiple-crashes",
     "felt-browser-error-connection",
+    "felt-browser-error-sso-timeout",
     "felt-error-network",
     "felt-updates-title",
     "felt-updates-checking",
