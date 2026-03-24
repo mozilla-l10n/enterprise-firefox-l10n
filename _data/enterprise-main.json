@@ -42,7 +42,12 @@
     "extension-firefox-enterprise-dark-description",
     "blocked-by-policy-title-enterprise",
     "neterror-blocked-by-policy-page-title-enterprise",
-    "neterror-blocked-by-policy-contact-admin"
+    "neterror-blocked-by-policy-contact-admin",
+    "enterprise-access-connector-heading",
+    "enterprise-access-connector-info-active",
+    "enterprise-access-connector-button",
+    "enterprise-access-connector-status-label-active",
+    "enterprise-access-connector-status-label-inactive"
   ],
   "en-US/browser/browser/enterprise/felt.ftl": [
     "felt-window-title",
