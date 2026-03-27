@@ -18,7 +18,8 @@
     "policy-DownloadTelemetry",
     "policy-EnterpriseStorageEncryption",
     "policy-PrintPageTelemetry",
-    "policy-Sync"
+    "policy-Sync",
+    "policy-CrashReportsSubmit"
   ],
   "en-US/browser/browser/enterprise/enterprise.ftl": [
     "enterprise-toolbar-button",
@@ -50,7 +51,9 @@
     "enterprise-access-connector-info-active",
     "enterprise-access-connector-button",
     "enterprise-access-connector-status-label-active",
-    "enterprise-access-connector-status-label-inactive"
+    "enterprise-access-connector-status-label-inactive",
+    "crashed-policy-auto-submit-title",
+    "crashed-policy-auto-submit-message"
   ],
   "en-US/browser/browser/enterprise/felt.ftl": [
     "felt-window-title",
