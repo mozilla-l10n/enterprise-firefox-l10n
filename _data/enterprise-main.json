@@ -14,6 +14,7 @@
     "brandFullName"
   ],
   "en-US/browser/browser/enterprise/enterprise-policies-descriptions.ftl": [
+    "policy-AIChatbot",
     "policy-BlocklistDomainBrowsedTelemetry",
     "policy-DownloadTelemetry",
     "policy-EnterpriseStorageEncryption",
