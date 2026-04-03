@@ -59,7 +59,6 @@ felt-error-contact-admin = Please contact your administrator.
 felt-warning-unsupported-system-contact-admin =
     .heading = Unsupported operating system
 felt-error-warning-unsupported-system-contact-admin = A new version of { -brand-short-name } is available, but your operating system is not supported. Contact your administrator for assistance.
-felt-error-unsupported-system-contact-admin = Your current system does not support this new version. Please contact your administrator.
 felt-error-checking-failed-contact-admin = Unexpected failure while checking for an update. Please contact your administrator.
 felt-warning-title-elevation-attempt-failed =
     .heading = Update couldn’t be installed
