@@ -64,6 +64,7 @@
     "felt-sso-continue-btn",
     "felt-pending-action-notification",
     "felt-powered-by",
+    "felt-version-nightly",
     "felt-version",
     "felt-browser-error-sso-timeout2",
     "felt-browser-error-multiple-crashes2",
@@ -78,8 +79,13 @@
     "felt-updates-uptodate",
     "felt-error-updates",
     "felt-error-contact-admin",
-    "felt-error-unsupported-system-contact-admin",
-    "felt-error-checking-failed-contact-admin"
+    "felt-warning-unsupported-system-contact-admin",
+    "felt-error-warning-unsupported-system-contact-admin",
+    "felt-error-checking-failed-contact-admin",
+    "felt-warning-title-elevation-attempt-failed",
+    "felt-error-warning-elevation-attempt-failed-contact-admin",
+    "felt-warning-title-download-attempt-failed",
+    "felt-error-warning-download-attempt-failed-contact-admin"
   ],
   "en-US/browser/chrome/overrides/enterprise.properties": [
     "blockedByPolicyEnterprise"
