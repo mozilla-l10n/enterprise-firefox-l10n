@@ -4,6 +4,11 @@
 
 felt-pending-action-notification = Attendere l’avvio di { -brand-short-name }…
 felt-powered-by = Realizzato da { -vendor-short-name }
+# Example of resulting string: 151.0a1 (2026-04-01)
+# Variables:
+#   $version (String): version of Firefox for Nightly builds, e.g. 151.0a1
+#   $isodate (String): date in ISO format, e.g. 2026-04-01
+felt-version-nightly = { $version } ({ $isodate })
 # Example of resulting string: 151.0b1 (e.g. for beta builds) or 151.0. (e.g. for release build)
 # Variables:
 #   $version (String): version of Firefox for beta and release builds
@@ -30,6 +35,12 @@ felt-browser-error-sso-timeout2 =
     .message = Riprovare o contattare l’amministratore se il problema persiste.
 felt-browser-error-multiple-crashes2 =
     .heading = { -brand-short-name } si è bloccato più volte
+
+## Logout messages
+
+felt-browser-info-console-forced-logout =
+    .heading = Sei stato disconnesso
+    .message = Sei stato disconnesso da un amministratore durante la normale gestione dell’account. Per qualsiasi domanda, rivolgiti direttamente al tuo amministratore
 
 ## Network error details.
 
