@@ -4,7 +4,9 @@
 
 felt-pending-action-notification = Attendere l’avvio di { -brand-short-name }…
 felt-powered-by = Realizzato da { -vendor-short-name }
-# $version is the version of Felt, not the version of Firefox.
+# Example of resulting string: 151.0b1 (e.g. for beta builds) or 151.0. (e.g. for release build)
+# Variables:
+#   $version (String): version of Firefox for beta and release builds
 felt-version = Versione { $version }
 felt-window-title = { -brand-short-name } — Accesso
 felt-sso-title = Accedi
@@ -43,5 +45,4 @@ felt-updates-uptodate = { -brand-short-name } è aggiornato
 felt-error-updates =
     .heading = Si è verificato un errore durante l’applicazione degli aggiornamenti…
 felt-error-contact-admin = Contattare l’amministratore.
-felt-error-unsupported-system-contact-admin = La nuova versione non è compatibile con il sistema corrente. Contattare l’amministratore.
 felt-error-checking-failed-contact-admin = Errore imprevisto durante la ricerca degli aggiornamenti. Contattare l’amministratore.
