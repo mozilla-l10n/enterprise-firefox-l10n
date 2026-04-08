@@ -7,3 +7,4 @@ policy-DownloadTelemetry = Activer et configurer l’enregistrement des évènem
 policy-EnterpriseStorageEncryption = Activer la gestion du mot de passe principal par l’entreprise pour le stockage chiffré.
 policy-PrintPageTelemetry = Activer et configurer l’enregistrement des évènements de sécurité lorsqu’une impression est lancée.
 policy-Sync = Activer ou désactiver la synchronisation et déterminer quelles données inclure.
+policy-CrashReportsSubmit = Configurer les paramètres d’envoi des rapports de plantage.

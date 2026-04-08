@@ -57,3 +57,7 @@ felt-error-warning-unsupported-system-contact-admin = Une nouvelle version de { 
 felt-error-checking-failed-contact-admin = Une erreur inattendue s’est produite lors de la recherche de mise à jour. Veuillez contacter votre administrateur.
 felt-warning-title-elevation-attempt-failed =
     .heading = La mise à jour n’a pas pu être installée
+felt-error-warning-elevation-attempt-failed-contact-admin = Une mise à jour n’a pas pu être installée faute de privilèges système. Veuillez contacter votre administrateur pour obtenir de l’aide.
+felt-warning-title-download-attempt-failed =
+    .heading = La mise à jour n’a pas pu être téléchargée
+felt-error-warning-download-attempt-failed-contact-admin = La dernière mise à jour n'a pas pu être téléchargée. Si le problème persiste, contactez votre administrateur pour obtenir de l’aide.
