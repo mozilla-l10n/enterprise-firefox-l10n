@@ -8,3 +8,5 @@ policy-EnterpriseStorageEncryption = Activer la gestion du mot de passe principa
 policy-PrintPageTelemetry = Activer et configurer l’enregistrement des évènements de sécurité lorsqu’une impression est lancée.
 policy-Sync = Activer ou désactiver la synchronisation et déterminer quelles données inclure.
 policy-CrashReportsSubmit = Configurer les paramètres d’envoi des rapports de plantage.
+policy-AIChatbot = Configurer les fournisseurs de chatbot IA disponibles, le fournisseur par défaut et les fonctionnalités liées aux prompts.
+policy-AccessConnector = Configurer un connecteur d’accès pour l’acheminement du trafic web par proxy.
