@@ -13,6 +13,13 @@ enterprise-panel-information = You’re signed into a company-managed browser. C
 enterprise-panel-learn-more = Learn more
 enterprise-panel-sign-out-btn =
     .label = Sign out…
+# $tabCount (Number) - the number of open tabs
+enterprise-signout-prompt-title2 =
+    { $tabCount ->
+        [0] Sign out of { -brand-short-name }?
+        [one] Sign out of { -brand-short-name }?
+       *[other] Sign out and close { $tabCount } tabs?
+    }
 enterprise-signout-prompt-title = Sign out of { -brand-short-name }?
 enterprise-signout-prompt-message = You’re signing out of your { -brand-short-name } browser. To use it again, you’ll need to re-authenticate through your company’s SSO provider.
 enterprise-signout-prompt-checkbox-label = Show this message when signing out.
