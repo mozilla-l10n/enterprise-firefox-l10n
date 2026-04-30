@@ -16,37 +16,27 @@ enterprise-panel-sign-out-btn =
 enterprise-close-prompt-title = Close { -brand-short-name }?
 # Variables:
 #   $tabCount (Number): The number of tabs to be closed.
-#   $warnSignout (String): "true" when the sign-out warning is shown.
+enterprise-close-prompt-title-with-tabcount-and-signout-warning =
+    { $tabCount ->
+        [one] Close { -brand-short-name } and { $tabCount } tab?
+       *[other] Close { -brand-short-name } and { $tabCount } tabs?
+    }
+# Variables:
+#   $tabCount (Number): The number of tabs to be closed.
 enterprise-close-prompt-title-with-tabcount =
-    { $warnSignout ->
-        [true]
-            { $tabCount ->
-                [one] Close { -brand-short-name } and { $tabCount } tab?
-               *[other] Close { -brand-short-name } and { $tabCount } tabs?
-            }
-       *[false]
-            { $tabCount ->
-                [one] Close { $tabCount } tab?
-               *[other] Close { $tabCount } tabs?
-            }
+    { $tabCount ->
+        [one] Close { $tabCount } tab?
+       *[other] Close { $tabCount } tabs?
     }
 enterprise-close-prompt-message = You’re about to sign out of { -brand-short-name } and end your session.
 # Variables:
 #   $tabCount (Number): The number of tabs to be closed.
-#   $warnSignout (String): "true" when the sign-out warning is shown.
-enterprise-close-prompt-message-with-tabcount =
-    { $warnSignout ->
-        [true]
-            { $tabCount ->
-                [one] You’re about to sign out of { -brand-short-name } and close { $tabCount } tab.
-               *[other] You’re about to sign out of { -brand-short-name } and close { $tabCount } tabs.
-            }
-       *[false]
-            { $tabCount ->
-                [one] Closing { -brand-short-name } will also sign you out.
-               *[other] Closing { -brand-short-name } will also sign you out.
-            }
+enterprise-close-prompt-message-with-tabcount-and-signout-warning =
+    { $tabCount ->
+        [one] You’re about to sign out of { -brand-short-name } and close { $tabCount } tab.
+       *[other] You’re about to sign out of { -brand-short-name } and close { $tabCount } tabs.
     }
+enterprise-close-prompt-message-with-tabcount = Closing { -brand-short-name } will also sign you out.
 enterprise-close-prompt-message-reauth = To use { -brand-short-name } again, you’ll need to reauthenticate through your organization’s SSO provider.
 enterprise-close-prompt-checkbox-label = Warn me when closing { -brand-short-name } signs me out
 enterprise-close-prompt-tabs-checkbox-label = Warn me when closing multiple tabs
