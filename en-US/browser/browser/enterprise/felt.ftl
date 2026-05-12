@@ -35,6 +35,9 @@ felt-browser-error-sso-timeout2 =
     .message = Please try again, or contact your administrator if the problem persists.
 felt-browser-error-multiple-crashes2 =
     .heading = { -brand-short-name } crashed multiple times
+felt-browser-error-launch-failure =
+    .heading = { -brand-short-name } cannot start
+    .message = Please contact your administrator if the problem persists.
 
 ## Logout messages
 
