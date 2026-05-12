@@ -78,6 +78,7 @@
     "felt-version",
     "felt-browser-error-sso-timeout2",
     "felt-browser-error-multiple-crashes2",
+    "felt-browser-error-launch-failure",
     "felt-browser-info-console-forced-logout",
     "felt-browser-error-connection2",
     "felt-browser-error-no-network",
