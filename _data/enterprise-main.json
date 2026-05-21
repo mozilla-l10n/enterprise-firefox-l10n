@@ -104,5 +104,10 @@
   ],
   "en-US/dom/chrome/enterprise.properties": [
     "blockedByPolicyEnterprise"
+  ],
+  "en-US/toolkit/crashreporter/crashreporter-enterprise.ftl": [
+    "crashreporter-policy-explanation",
+    "crashreporter-submit-status-enterprise",
+    "crashreporter-submit-status-policy"
   ]
 }
