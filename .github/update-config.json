@@ -6,6 +6,7 @@
     "browser/locales/en-US/browser/enterprise/",
     "browser/locales/en-US/chrome/overrides/enterprise.properties",
     "dom/locales/en-US/chrome/enterprise.properties",
+    "toolkit/locales/en-US/crashreporter/crashreporter-enterprise.ftl",
     "browser/locales/l10n.toml",
     "devtools/client/locales/l10n.toml",
     "devtools/shared/locales/l10n.toml",
