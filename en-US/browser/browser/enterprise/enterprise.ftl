@@ -54,6 +54,15 @@ enterprise-quit-shortcut-prompt-title-with-tabs = Quit { -brand-short-name } or 
 enterprise-quit-shortcut-prompt-title = Close window and quit { -brand-short-name }?
 enterprise-quit-shortcut-prompt-message = Quitting will sign you out of your session. You’ll need to reauthenticate through your organization’s SSO provider.
 enterprise-quit-shortcut-prompt-primary-btn-label = Quit and sign out
+# $tabCount (Number) - the number of open tabs
+enterprise-signout-prompt-title2 =
+    { $tabCount ->
+        [one] Sign out of { -brand-short-name }?
+       *[other] Sign out and close { $tabCount } tabs?
+    }
+enterprise-signout-prompt-message = You’re signing out of your { -brand-short-name } browser. To use it again, you’ll need to re-authenticate through your company’s SSO provider.
+enterprise-signout-prompt-checkbox-label = Show this message when signing out.
+enterprise-signout-prompt-primary-btn-label = Sign out
 restart-forced-title = Restart { -brand-short-name }
 restart-forced-heading = Restart to continue using { -brand-short-name }.
 restart-forced-intro = Company policy requires that { -brand-short-name } be restarted.
@@ -74,6 +83,7 @@ neterror-blocked-by-policy-contact-admin = If you believe this is an error or ne
 enterprise-access-connector-heading = Access Connector
 enterprise-access-connector-info-active = This site is being accessed through a secure company connection.
 enterprise-access-connector-button =
+    .label = Access Connector
     .tooltiptext = Access Connector
 enterprise-access-connector-status-label-active = active
 enterprise-access-connector-status-label-inactive = inactive
