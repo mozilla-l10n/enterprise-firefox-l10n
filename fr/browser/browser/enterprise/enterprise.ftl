@@ -13,6 +13,10 @@ enterprise-panel-information = Vous êtes identifiés dans un navigateur géré 
 enterprise-panel-learn-more = En savoir plus
 enterprise-panel-sign-out-btn =
     .label = Se déconnecter…
+enterprise-signout-prompt-title = Se déconnecter de { -brand-short-name } ?
+enterprise-signout-prompt-message = Vous êtes sur le point de vous déconnecter de votre navigateur { -brand-short-name }. Pour pouvoir l’utiliser à nouveau, vous devrez vous ré-authentifier via le fournisseur d’identification de votre entreprise.
+enterprise-signout-prompt-checkbox-label = Afficher ce message lors de la déconnexion.
+enterprise-signout-prompt-primary-btn-label = Déconnexion
 enterprise-close-prompt-title = Fermer { -brand-short-name } ?
 # Variables:
 #   $tabCount (Number): The number of tabs to be closed.
