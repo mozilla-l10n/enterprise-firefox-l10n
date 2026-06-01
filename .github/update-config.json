@@ -1,5 +1,9 @@
 {
-  "branches": ["enterprise-main"],
+  "branches": [
+    "enterprise-main",
+    "enterprise-beta",
+    "enterprise-release"
+  ],
   "head": "enterprise-main",
   "paths": [
     "browser/branding/enterprise/locales/en-US/",
