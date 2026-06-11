@@ -54,6 +54,7 @@ felt-browser-info-console-forced-logout =
 
 felt-error-network = Erreur réseau inconnue
 felt-error-no-network-connection = Veuillez vérifier votre connexion Internet puis réessayer.
+felt-error-neterror-dns-not-found-title = Adresse introuvable
 
 ## Updates messages and related errors messages
 
