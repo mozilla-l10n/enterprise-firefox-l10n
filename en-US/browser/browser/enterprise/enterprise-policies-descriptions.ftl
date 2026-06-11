@@ -10,3 +10,4 @@ policy-Sync = Enable or disable sync and define which data to include.
 policy-CrashReportsSubmit = Configure crash report submission settings.
 policy-AIChatbot = Configure available AI chatbot providers, default provider, and prompt features.
 policy-AccessConnector = Configure an access connector for proxying web traffic.
+policy-AccessConnector2 = Configure the { -enterprise-feature-access-connector } for proxying web traffic.
