@@ -14,7 +14,7 @@
     "brandFullName"
   ],
   "en-US/browser/browser/enterprise/enterprise-policies-descriptions.ftl": [
-    "policy-AccessConnector",
+    "policy-AccessConnector2",
     "policy-AIChatbot",
     "policy-BlocklistDomainBrowsedTelemetry",
     "policy-DownloadTelemetry",
@@ -24,6 +24,7 @@
     "policy-CrashReportsSubmit"
   ],
   "en-US/browser/browser/enterprise/enterprise.ftl": [
+    "-enterprise-feature-access-connector",
     "enterprise-toolbar-button",
     "enterprise-panel",
     "enterprise-panel-alert",
@@ -59,9 +60,9 @@
     "blocked-by-policy-title-enterprise",
     "neterror-blocked-by-policy-page-title-enterprise",
     "neterror-blocked-by-policy-contact-admin",
-    "enterprise-access-connector-heading",
+    "enterprise-access-connector-heading2",
     "enterprise-access-connector-info-active",
-    "enterprise-access-connector-button",
+    "enterprise-access-connector-button2",
     "enterprise-access-connector-status-label-active",
     "enterprise-access-connector-status-label-inactive",
     "crashed-policy-auto-submit-title",
@@ -76,6 +77,7 @@
     "felt-powered-by",
     "felt-version-nightly",
     "felt-version",
+    "felt-urlbar-web-authn-anchor",
     "felt-browser-error-sso-timeout2",
     "felt-browser-error-token-refresh-failed",
     "felt-browser-error-multiple-crashes2",
@@ -85,6 +87,7 @@
     "felt-browser-error-no-network",
     "felt-error-network",
     "felt-error-no-network-connection",
+    "felt-error-neterror-dns-not-found-title",
     "felt-updates-title",
     "felt-updates-checking",
     "felt-updates-application",
