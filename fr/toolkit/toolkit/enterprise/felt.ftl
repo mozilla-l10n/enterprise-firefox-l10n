@@ -2,6 +2,16 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+### FELT (Firefox Enterprise Launcher Tool) SSO Login
+
+felt-window-title = { -brand-short-name } — Identification
+felt-sso-title = Connexion
+felt-sso-input-email =
+    .description = Utilisez votre adresse e-mail professionnelle
+    .label = E-mail professionnel
+felt-sso-continue-btn =
+    .label = Continuer
 felt-pending-action-notification = Merci de patienter pendant le démarrage de { -brand-short-name }…
 felt-powered-by = Réalisé par { -vendor-short-name }
 # Example of resulting string: 151.0a1 (2026-04-01)
@@ -13,22 +23,12 @@ felt-version-nightly = { $version } ({ $isodate })
 # Variables:
 #   $version (String): version of Firefox for beta and release builds
 felt-version = Version { $version }
+# Copy of urlbar-web-authn-anchor: Felt relies on the WebAuthn prompter and its
+# mechanisms uses this string even if not visible in our UI. This is the only
+# string requiring pulling browser/browser.ftl, so make a copy here and use it
+# in our felt.xhtml
 felt-urlbar-web-authn-anchor =
     .tooltiptext = Ouvrir le panneau d’authentification web
-felt-window-title = { -brand-short-name } — Identification
-felt-sso-title = Connexion
-felt-sso-input-email =
-    .description = Utilisez votre adresse e-mail professionnelle
-    .label = E-mail professionnel
-felt-sso-continue-btn =
-    .label = Continuer
-
-## Network error headings
-
-felt-browser-error-connection2 =
-    .heading = Connexion impossible. Veuillez contacter votre administrateur.
-felt-browser-error-no-network =
-    .heading = Aucune connexion réseau
 
 ## Error details when launching the browser crashes
 
@@ -49,6 +49,13 @@ felt-browser-error-launch-failure =
 felt-browser-info-console-forced-logout =
     .heading = Vous avez été déconnecté·e
     .message = Un administrateur vous a déconnecté·e dans le cadre de la gestion de compte courante. Pour toute question, veuillez contacter directement votre administrateur.
+
+## Network error headings
+
+felt-browser-error-connection2 =
+    .heading = Connexion impossible. Veuillez contacter votre administrateur.
+felt-browser-error-no-network =
+    .heading = Aucune connexion réseau
 
 ## Network error details.
 

@@ -2,6 +2,16 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+### FELT (Firefox Enterprise Launcher Tool) SSO Login
+
+felt-window-title = { -brand-short-name } — Accesso
+felt-sso-title = Accedi
+felt-sso-input-email =
+    .description = Utilizza l’indirizzo email assegnato dalla tua organizzazione
+    .label = Email di lavoro
+felt-sso-continue-btn =
+    .label = Continua
 felt-pending-action-notification = Attendere l’avvio di { -brand-short-name }…
 felt-powered-by = Realizzato da { -vendor-short-name }
 # Example of resulting string: 151.0a1 (2026-04-01)
@@ -13,22 +23,12 @@ felt-version-nightly = { $version } ({ $isodate })
 # Variables:
 #   $version (String): version of Firefox for beta and release builds
 felt-version = Versione { $version }
+# Copy of urlbar-web-authn-anchor: Felt relies on the WebAuthn prompter and its
+# mechanisms uses this string even if not visible in our UI. This is the only
+# string requiring pulling browser/browser.ftl, so make a copy here and use it
+# in our felt.xhtml
 felt-urlbar-web-authn-anchor =
     .tooltiptext = Apri pannello autenticazione web
-felt-window-title = { -brand-short-name } — Accesso
-felt-sso-title = Accedi
-felt-sso-input-email =
-    .description = Utilizza l’indirizzo email assegnato dalla tua organizzazione
-    .label = Email di lavoro
-felt-sso-continue-btn =
-    .label = Continua
-
-## Network error headings
-
-felt-browser-error-connection2 =
-    .heading = Impossibile connettersi. Contattare l’amministratore.
-felt-browser-error-no-network =
-    .heading = Nessuna connessione di rete
 
 ## Error details when launching the browser crashes
 
@@ -49,6 +49,13 @@ felt-browser-error-launch-failure =
 felt-browser-info-console-forced-logout =
     .heading = Sei stato disconnesso
     .message = Sei stato disconnesso da un amministratore durante la normale gestione dell’account. Per qualsiasi domanda, rivolgiti direttamente al tuo amministratore
+
+## Network error headings
+
+felt-browser-error-connection2 =
+    .heading = Impossibile connettersi. Contattare l’amministratore.
+felt-browser-error-no-network =
+    .heading = Nessuna connessione di rete
 
 ## Network error details.
 

@@ -2,6 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Access Connector is an Enterprise feature name and must not be translated.
+-enterprise-feature-access-connector = Access Connector
 enterprise-toolbar-button =
     .label = { -brand-short-name }
     .tooltiptext = { -brand-short-name }
@@ -63,17 +65,11 @@ blocked-by-policy-title-enterprise = L’accesso a questo sito è soggetto a res
 neterror-blocked-by-policy-page-title-enterprise = L’accesso a questo sito è soggetto a restrizioni
 neterror-blocked-by-policy-contact-admin = Se ritieni che si tratti di un errore o hai bisogno di accedervi per motivi di lavoro, contatta il tuo amministratore IT.
 enterprise-access-connector-heading2 = { -enterprise-feature-access-connector }
-enterprise-access-connector-heading = Access Connector
 enterprise-access-connector-info-active = L’accesso a questo sito avviene tramite una connessione aziendale sicura.
 enterprise-access-connector-button2 =
     .label = { -enterprise-feature-access-connector }
     .tooltiptext = { -enterprise-feature-access-connector }
-enterprise-access-connector-button =
-    .label = Access Connector
-    .tooltiptext = Access Connector
 enterprise-access-connector-status-label-active = attivo
 enterprise-access-connector-status-label-inactive = disattivato
 crashed-policy-auto-submit-title = I rapporti sugli arresti anomali ci aiutano a migliorare
 crashed-policy-auto-submit-message = L’amministratore ha configurato { -brand-short-name } per l’invio automatico delle segnalazioni di arresto anomalo.
-# Access Connector is an Enterprise feature name and must not be translated.
--enterprise-feature-access-connector = Access Connector
