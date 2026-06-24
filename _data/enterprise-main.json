@@ -77,7 +77,10 @@
     "enterprise-access-connector-status-label-active",
     "enterprise-access-connector-status-label-inactive",
     "crashed-policy-auto-submit-title",
-    "crashed-policy-auto-submit-message"
+    "crashed-policy-auto-submit-message",
+    "fp-neterror-access-connector-error-title",
+    "fp-neterror-access-connector-error-description",
+    "fp-neterror-access-connector-error-contact-admin"
   ],
   "en-US/toolkit/toolkit/enterprise/felt.ftl": [
     "felt-window-title",
