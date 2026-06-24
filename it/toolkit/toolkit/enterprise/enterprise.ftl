@@ -73,3 +73,4 @@ enterprise-access-connector-status-label-active = attivo
 enterprise-access-connector-status-label-inactive = disattivato
 crashed-policy-auto-submit-title = I rapporti sugli arresti anomali ci aiutano a migliorare
 crashed-policy-auto-submit-message = L’amministratore ha configurato { -brand-short-name } per l’invio automatico delle segnalazioni di arresto anomalo.
+fp-neterror-access-connector-error-title = Impossibile raggiungere questo sito web
