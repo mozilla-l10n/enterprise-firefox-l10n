@@ -82,3 +82,4 @@ felt-error-warning-elevation-attempt-failed-contact-admin = An update couldn’t
 felt-warning-title-download-attempt-failed =
     .heading = Update couldn’t be downloaded
 felt-error-warning-download-attempt-failed-contact-admin = The latest update couldn’t be downloaded. If this problem persists, contact your administrator for help.
+felt-back-button = Back to login

@@ -114,6 +114,7 @@
     "felt-warning-title-elevation-attempt-failed",
     "felt-error-warning-elevation-attempt-failed-contact-admin",
     "felt-warning-title-download-attempt-failed",
-    "felt-error-warning-download-attempt-failed-contact-admin"
+    "felt-error-warning-download-attempt-failed-contact-admin",
+    "felt-back-button"
   ]
 }
