@@ -96,6 +96,7 @@
     "felt-browser-error-token-refresh-failed",
     "felt-browser-error-multiple-crashes2",
     "felt-browser-error-launch-failure",
+    "felt-error-primary-secret",
     "felt-browser-info-console-forced-logout",
     "felt-browser-error-connection2",
     "felt-browser-error-no-network",
