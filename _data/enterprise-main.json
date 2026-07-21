@@ -22,7 +22,8 @@
     "policy-EnterpriseStorageEncryption",
     "policy-PrintPageTelemetry",
     "policy-Sync",
-    "policy-CrashReportsSubmit"
+    "policy-CrashReportsSubmit",
+    "policy-Watermark"
   ],
   "en-US/browser/chrome/overrides/enterprise.properties": [
     "blockedByPolicyEnterprise"
