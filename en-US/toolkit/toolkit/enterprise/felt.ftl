@@ -46,6 +46,9 @@ felt-browser-error-launch-failure =
 felt-error-primary-secret =
     .heading = { -brand-short-name } cannot start securely
     .message = Your secure profile key could not be retrieved. Please try again, or contact your administrator if the problem persists.
+felt-error-sdr-token-unlock-failed =
+    .heading = { -brand-short-name } cannot unlock your profile
+    .message = Your secure profile could not be unlocked. Please try again, or contact your administrator if the problem persists.
 
 ## Logout messages
 
