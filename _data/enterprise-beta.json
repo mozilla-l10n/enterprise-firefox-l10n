@@ -17,13 +17,25 @@
     "policy-AccessConnector2",
     "policy-AIChatbot",
     "policy-BlocklistDomainBrowsedTelemetry",
+    "policy-DisableLocalPolicies",
     "policy-DownloadTelemetry",
     "policy-EnterpriseStorageEncryption",
     "policy-PrintPageTelemetry",
     "policy-Sync",
     "policy-CrashReportsSubmit"
   ],
-  "en-US/browser/browser/enterprise/enterprise.ftl": [
+  "en-US/browser/chrome/overrides/enterprise.properties": [
+    "blockedByPolicyEnterprise"
+  ],
+  "en-US/dom/chrome/enterprise.properties": [
+    "blockedByPolicyEnterprise"
+  ],
+  "en-US/toolkit/crashreporter/crashreporter-enterprise.ftl": [
+    "crashreporter-policy-explanation",
+    "crashreporter-submit-status-enterprise",
+    "crashreporter-submit-status-policy"
+  ],
+  "en-US/toolkit/toolkit/enterprise/enterprise.ftl": [
     "-enterprise-feature-access-connector",
     "enterprise-toolbar-button",
     "enterprise-panel",
@@ -57,18 +69,22 @@
     "lockdown-mode-button",
     "lockdown-mode-popup-header",
     "lockdown-mode-popup-message",
+    "access-connector-button",
+    "access-connector-panel-header",
+    "access-connector-panel-message",
+    "access-connector-button-error",
+    "access-connector-panel-header-error",
+    "access-connector-panel-message-error",
     "blocked-by-policy-title-enterprise",
     "neterror-blocked-by-policy-page-title-enterprise",
     "neterror-blocked-by-policy-contact-admin",
-    "enterprise-access-connector-heading2",
-    "enterprise-access-connector-info-active",
-    "enterprise-access-connector-button2",
-    "enterprise-access-connector-status-label-active",
-    "enterprise-access-connector-status-label-inactive",
     "crashed-policy-auto-submit-title",
-    "crashed-policy-auto-submit-message"
+    "crashed-policy-auto-submit-message",
+    "fp-neterror-access-connector-error-title",
+    "fp-neterror-access-connector-error-description",
+    "fp-neterror-access-connector-error-contact-admin"
   ],
-  "en-US/browser/browser/enterprise/felt.ftl": [
+  "en-US/toolkit/toolkit/enterprise/felt.ftl": [
     "felt-window-title",
     "felt-sso-title",
     "felt-sso-input-email",
@@ -82,6 +98,7 @@
     "felt-browser-error-token-refresh-failed",
     "felt-browser-error-multiple-crashes2",
     "felt-browser-error-launch-failure",
+    "felt-error-primary-secret",
     "felt-browser-info-console-forced-logout",
     "felt-browser-error-connection2",
     "felt-browser-error-no-network",
@@ -100,17 +117,7 @@
     "felt-warning-title-elevation-attempt-failed",
     "felt-error-warning-elevation-attempt-failed-contact-admin",
     "felt-warning-title-download-attempt-failed",
-    "felt-error-warning-download-attempt-failed-contact-admin"
-  ],
-  "en-US/browser/chrome/overrides/enterprise.properties": [
-    "blockedByPolicyEnterprise"
-  ],
-  "en-US/dom/chrome/enterprise.properties": [
-    "blockedByPolicyEnterprise"
-  ],
-  "en-US/toolkit/crashreporter/crashreporter-enterprise.ftl": [
-    "crashreporter-policy-explanation",
-    "crashreporter-submit-status-enterprise",
-    "crashreporter-submit-status-policy"
+    "felt-error-warning-download-attempt-failed-contact-admin",
+    "felt-back-button"
   ]
 }
