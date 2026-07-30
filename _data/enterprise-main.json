@@ -17,6 +17,7 @@
     "policy-AccessConnector2",
     "policy-AIChatbot",
     "policy-BlocklistDomainBrowsedTelemetry",
+    "policy-ContentAnalysisTelemetry",
     "policy-DisableLocalPolicies",
     "policy-DownloadTelemetry",
     "policy-EnterpriseStorageEncryption",
