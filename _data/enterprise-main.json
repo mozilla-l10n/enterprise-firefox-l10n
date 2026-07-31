@@ -18,6 +18,7 @@
     "policy-AIChatbot",
     "policy-BlocklistDomainBrowsedTelemetry",
     "policy-ContentAnalysisTelemetry",
+    "policy-DataLossPrevention",
     "policy-DisableLocalPolicies",
     "policy-DownloadTelemetry",
     "policy-EnterpriseStorageEncryption",
