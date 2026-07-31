@@ -65,6 +65,7 @@ access-connector-button =
     .aria-label = { -enterprise-feature-access-connector } activé
     .tooltiptext = { -enterprise-feature-access-connector } activé
 access-connector-panel-header = { -enterprise-feature-access-connector } activé
+access-connector-panel-message = Les connexions à ce site utilisent des méthodes d’authentification supplémentaires et sont acheminées via un proxy d’entreprise sécurisé.
 access-connector-button-error =
     .aria-label = { -enterprise-feature-access-connector } indisponible
     .tooltiptext = { -enterprise-feature-access-connector } indisponible
