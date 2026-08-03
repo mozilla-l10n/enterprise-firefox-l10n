@@ -63,6 +63,14 @@ felt-browser-error-connection2 =
 felt-browser-error-no-network =
     .heading = No network connection
 
+## Captive portal (network sign-in required before signing in to { -brand-short-name })
+
+felt-browser-error-captive-portal =
+    .heading = { neterror-captive-portal-page-title }
+    .message = { neterror-captive-portal } If a sign-in page hasn’t already opened, use the button below.
+felt-captive-portal-open-login =
+    .label = { neterror-open-portal-login-page-button }
+
 ## Network error details.
 
 felt-error-network = Unknown network error
