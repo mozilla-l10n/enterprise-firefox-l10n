@@ -43,6 +43,12 @@ felt-browser-error-multiple-crashes2 =
 felt-browser-error-launch-failure =
     .heading = { -brand-short-name } ne peut pas démarrer
     .message = Si le problème persiste, veuillez contacter votre administrateur.
+felt-error-primary-secret =
+    .heading = { -brand-short-name } ne peut pas démarrer de manière sécurisée
+    .message = Votre clé de profil sécurisé n’a pas pu être récupérée. Veuillez essayer à nouveau ou contactez votre administrateur si le problème persiste.
+felt-error-sdr-token-unlock-failed =
+    .heading = { -brand-short-name } ne peut pas déverrouiller votre profil
+    .message = Votre profil sécurisé n’a pas pu être déverrouillé. Veuillez essayer à nouveau ou contactez votre administrateur si le problème persiste.
 
 ## Logout messages
 
