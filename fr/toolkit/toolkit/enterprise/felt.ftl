@@ -82,3 +82,4 @@ felt-error-warning-elevation-attempt-failed-contact-admin = Une mise à jour n�
 felt-warning-title-download-attempt-failed =
     .heading = La mise à jour n’a pas pu être téléchargée
 felt-error-warning-download-attempt-failed-contact-admin = La dernière mise à jour n'a pas pu être téléchargée. Si le problème persiste, contactez votre administrateur pour obtenir de l’aide.
+felt-back-button = Retour à la connexion
