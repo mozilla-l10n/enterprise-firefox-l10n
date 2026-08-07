@@ -101,6 +101,7 @@
     "felt-urlbar-web-authn-anchor",
     "felt-browser-error-sso-timeout2",
     "felt-browser-error-token-refresh-failed",
+    "felt-browser-error-session-interrupted",
     "felt-browser-error-multiple-crashes2",
     "felt-browser-error-launch-failure",
     "felt-error-primary-secret",
