@@ -38,6 +38,9 @@ felt-browser-error-sso-timeout2 =
 felt-browser-error-token-refresh-failed =
     .heading = You’ve been signed out
     .message = Please sign in again, or contact your administrator if you have any questions.
+felt-browser-error-session-interrupted =
+    .heading = The session was interrupted
+    .message = Please sign in again, or contact your administrator if the problem persists.
 felt-browser-error-multiple-crashes2 =
     .heading = { -brand-short-name } crashed multiple times
 felt-browser-error-launch-failure =
@@ -62,6 +65,14 @@ felt-browser-error-connection2 =
     .heading = Unable to connect. Please contact your administrator.
 felt-browser-error-no-network =
     .heading = No network connection
+
+## Captive portal (network sign-in required before signing in to { -brand-short-name })
+
+felt-browser-error-captive-portal =
+    .heading = Log in to network
+    .message = You must log in to this network before you can access the internet. If a sign-in page hasn’t already opened, use the button below.
+felt-captive-portal-open-login =
+    .label = Open Network Login Page
 
 ## Network error details.
 
