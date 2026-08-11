@@ -69,10 +69,10 @@ felt-browser-error-no-network =
 ## Captive portal (network sign-in required before signing in to { -brand-short-name })
 
 felt-browser-error-captive-portal =
-    .heading = { neterror-captive-portal-page-title }
-    .message = { neterror-captive-portal } If a sign-in page hasn’t already opened, use the button below.
+    .heading = Log in to network
+    .message = You must log in to this network before you can access the internet. If a sign-in page hasn’t already opened, use the button below.
 felt-captive-portal-open-login =
-    .label = { neterror-open-portal-login-page-button }
+    .label = Open Network Login Page
 
 ## Network error details.
 
