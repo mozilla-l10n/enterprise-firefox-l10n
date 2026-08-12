@@ -66,6 +66,14 @@ felt-browser-error-connection2 =
 felt-browser-error-no-network =
     .heading = Nessuna connessione di rete
 
+## Captive portal (network sign-in required before signing in to { -brand-short-name })
+
+felt-browser-error-captive-portal =
+    .heading = Accedi alla rete
+    .message = È necessario accedere a questa rete prima di poter utilizzare Internet. Se la pagina di accesso non si è già aperta, utilizza il pulsante qui sotto.
+felt-captive-portal-open-login =
+    .label = Apri la pagina di accesso alla rete
+
 ## Network error details.
 
 felt-error-network = Errore di rete sconosciuto
