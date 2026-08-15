@@ -17,12 +17,15 @@
     "policy-AccessConnector2",
     "policy-AIChatbot",
     "policy-BlocklistDomainBrowsedTelemetry",
+    "policy-ContentAnalysisTelemetry",
+    "policy-DataLossPrevention",
     "policy-DisableLocalPolicies",
     "policy-DownloadTelemetry",
     "policy-EnterpriseStorageEncryption",
     "policy-PrintPageTelemetry",
     "policy-Sync",
-    "policy-CrashReportsSubmit"
+    "policy-CrashReportsSubmit",
+    "policy-Watermark"
   ],
   "en-US/browser/chrome/overrides/enterprise.properties": [
     "blockedByPolicyEnterprise"
@@ -98,12 +101,16 @@
     "felt-urlbar-web-authn-anchor",
     "felt-browser-error-sso-timeout2",
     "felt-browser-error-token-refresh-failed",
+    "felt-browser-error-session-interrupted",
     "felt-browser-error-multiple-crashes2",
     "felt-browser-error-launch-failure",
     "felt-error-primary-secret",
+    "felt-error-sdr-token-unlock-failed",
     "felt-browser-info-console-forced-logout",
     "felt-browser-error-connection2",
     "felt-browser-error-no-network",
+    "felt-browser-error-captive-portal",
+    "felt-captive-portal-open-login",
     "felt-error-network",
     "felt-error-no-network-connection",
     "felt-error-neterror-dns-not-found-title",
