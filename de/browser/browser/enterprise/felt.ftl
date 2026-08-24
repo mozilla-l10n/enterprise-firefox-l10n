@@ -1,0 +1,55 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+felt-pending-action-notification = Bitte warten Sie, während { -brand-short-name } gestartet wird…
+felt-powered-by = Bereitgestellt von { -vendor-short-name }
+# Example of resulting string: 151.0a1 (2026-04-01)
+# Variables:
+#   $version (String): version of Firefox for Nightly builds, e.g. 151.0a1
+#   $isodate (String): date in ISO format, e.g. 2026-04-01
+felt-version-nightly = { $version } ({ $isodate })
+# Example of resulting string: 151.0b1 (e.g. for beta builds) or 151.0. (e.g. for release build)
+# Variables:
+#   $version (String): version of Firefox for beta and release builds
+felt-version = { $version }
+felt-urlbar-web-authn-anchor =
+    .tooltiptext = Ansicht für Web-Authentifizierung öffnen
+felt-window-title = { -brand-short-name } – Anmeldung
+felt-sso-title = Anmelden
+felt-sso-input-email =
+    .label = E-Mail-Adresse dienstlich
+    .description = Die E-Mail-Adresse Ihrer Organisation verwenden
+felt-sso-continue-btn =
+    .label = Weiter
+
+## Network error headings
+
+felt-browser-error-connection2 =
+    .heading = Verbindung nicht möglich. Bitte wenden Sie sich an Ihren Administrator.
+felt-browser-error-no-network =
+    .heading = Keine Netzwerkverbindung
+
+## Error details when launching the browser crashes
+
+felt-browser-error-sso-timeout2 =
+    .heading = Zeitüberschreitung bei der Anmeldung
+    .message = Bitte versuchen Sie es erneut oder kontaktieren Sie Ihren Administrator, wenn das Problem weiterhin besteht.
+felt-browser-error-token-refresh-failed =
+    .heading = Sie wurden abgemeldet
+    .message = Bitte melden Sie sich erneut an, oder wenden Sie sich an Ihren Administrator, wenn Sie Fragen haben.
+felt-browser-error-multiple-crashes2 =
+    .heading = { -brand-short-name } ist mehrfach abgestürzt
+felt-browser-error-launch-failure =
+    .heading = { -brand-short-name } kann nicht gestartet werden
+    .message = Bitte kontaktieren Sie Ihren Administrator, wenn das Problem weiterhin besteht.
+
+## Logout messages
+
+felt-browser-info-console-forced-logout =
+    .heading = Sie wurden abgemeldet
+    .message = Ein Administrator hat Sie im Rahmen der regulären Kontenverwaltung abgemeldet. Wenden Sie sich bei Fragen bitte direkt an Ihren Administrator.
+
+## Network error details.
+
+felt-error-network = Unbekannter Netzwerkfehler
