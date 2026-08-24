@@ -53,3 +53,17 @@ felt-browser-info-console-forced-logout =
 ## Network error details.
 
 felt-error-network = Unbekannter Netzwerkfehler
+felt-error-no-network-connection = Bitte überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut.
+felt-error-neterror-dns-not-found-title = Server nicht gefunden
+
+## Updates messages and related errors messages
+
+felt-updates-title = Guten Morgen
+felt-updates-checking = Nach Updates suchen…
+felt-updates-application = Updates anwenden…
+felt-updates-uptodate = { -brand-short-name } ist aktuell
+felt-error-updates =
+    .heading = Beim Installieren der Updates ist ein Fehler aufgetreten…
+felt-error-contact-admin = Bitte kontaktieren Sie Ihren Administrator.
+felt-warning-unsupported-system-contact-admin =
+    .heading = Nicht unterstütztes Betriebssystem
