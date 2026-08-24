@@ -57,6 +57,7 @@ extension-firefox-enterprise-dark-description = Ein tiefdunkles Mitternachtsdesi
 lockdown-mode-button =
     .aria-label = Wiedergabe mit Einschränkungen
     .tooltiptext = Wiedergabe mit Einschränkungen
+lockdown-mode-popup-header = Mit Einschränkungen ansehen
 lockdown-mode-popup-message = Sie sehen diese Seite mit zusätzlichen Sicherheitsmaßnahmen, die Ihre Organisation angewendet hat. Einige Funktionen können eingeschränkt sein, um Sicherheitsrisiken zu reduzieren.
 blocked-by-policy-title-enterprise = Der Zugriff zu dieser Website ist eingeschränkt
 neterror-blocked-by-policy-page-title-enterprise = Der Zugriff zu dieser Website ist eingeschränkt
