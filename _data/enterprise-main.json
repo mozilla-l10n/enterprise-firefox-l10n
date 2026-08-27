@@ -16,13 +16,11 @@
   "en-US/browser/browser/enterprise/enterprise-policies-descriptions.ftl": [
     "policy-AccessConnector2",
     "policy-AIChatbot",
-    "policy-BlocklistDomainBrowsedTelemetry",
     "policy-ContentAnalysisTelemetry",
     "policy-DataLossPrevention",
     "policy-DisableLocalPolicies",
-    "policy-DownloadTelemetry",
     "policy-EnterpriseStorageEncryption",
-    "policy-PrintPageTelemetry",
+    "policy-SecurityLogging",
     "policy-Sync",
     "policy-CrashReportsSubmit",
     "policy-Watermark"
