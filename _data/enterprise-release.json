@@ -40,6 +40,7 @@
   ],
   "en-US/toolkit/toolkit/enterprise/enterprise.ftl": [
     "-enterprise-feature-access-connector",
+    "app-basics-device-id",
     "security-software-edr",
     "enterprise-toolbar-button",
     "enterprise-panel",
