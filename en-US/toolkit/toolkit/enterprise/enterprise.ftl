@@ -57,6 +57,17 @@ restart-forced-heading = Restart to continue using { -brand-short-name }.
 restart-forced-intro = Company policy requires that { -brand-short-name } be restarted.
 window-restoration-info = Your windows and tabs will be quickly restored, except private ones.
 restart-button-label = Restart { -brand-short-name }
+# Variables:
+#   $datetime (number) - Timestamp of the time the browser will be restarted at.
+enterprise-relaunch-warning-message = <strong>Your administrator requires { -brand-short-name } to restart.</strong> It will restart at { DATETIME($datetime, dateStyle: "short", timeStyle: "short") }. Tabs will reopen.
+# Variables:
+#   $minutes (number) - How many minutes are left before the browser restarts.
+enterprise-relaunch-imminent-message =
+    { $minutes ->
+        [one] <strong>{ -brand-short-name } will restart in { $minutes } minute.</strong> Save your work now. Tabs will reopen.
+       *[other] <strong>{ -brand-short-name } will restart in { $minutes } minutes.</strong> Save your work now. Tabs will reopen.
+    }
+enterprise-relaunch-restart-now = Restart now
 extension-firefox-enterprise-light-name = Firefox Enterprise Light
 extension-firefox-enterprise-light-description = A soft pastel theme with a touch of morning sunlight in the corner.
 extension-firefox-enterprise-dark-name = Firefox Enterprise Dark
