@@ -16,13 +16,11 @@
   "en-US/browser/browser/enterprise/enterprise-policies-descriptions.ftl": [
     "policy-AccessConnector2",
     "policy-AIChatbot",
-    "policy-BlocklistDomainBrowsedTelemetry",
     "policy-ContentAnalysisTelemetry",
     "policy-DataLossPrevention",
     "policy-DisableLocalPolicies",
-    "policy-DownloadTelemetry",
     "policy-EnterpriseStorageEncryption",
-    "policy-PrintPageTelemetry",
+    "policy-SecurityLogging",
     "policy-Sync",
     "policy-CrashReportsSubmit",
     "policy-Watermark"
@@ -40,6 +38,8 @@
   ],
   "en-US/toolkit/toolkit/enterprise/enterprise.ftl": [
     "-enterprise-feature-access-connector",
+    "app-basics-device-id",
+    "security-software-edr",
     "enterprise-toolbar-button",
     "enterprise-panel",
     "enterprise-panel-alert",
