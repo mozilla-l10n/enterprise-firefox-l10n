@@ -95,3 +95,6 @@ crashed-policy-auto-submit-message = Your administrator has configured { -brand-
 fp-neterror-access-connector-error-title = This website can’t be reached
 fp-neterror-access-connector-error-description = Your organization routes this website through a secure connection service, but that service is currently unavailable.
 fp-neterror-access-connector-error-contact-admin = Try again later, or contact your administrator if you need access.
+# Labels the message an administrator wrote for the data protection rule that
+# was matched, shown in the warn and block dialogs above that message.
+contentanalysis-admin-message-label = Message from your administrator
