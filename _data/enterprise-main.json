@@ -89,7 +89,9 @@
     "fp-neterror-access-connector-error-title",
     "fp-neterror-access-connector-error-description",
     "fp-neterror-access-connector-error-contact-admin",
-    "contentanalysis-admin-message-label"
+    "contentanalysis-admin-message-label",
+    "data-collection-enterprise",
+    "data-collection-backlogged-crash-reports-enterprise"
   ],
   "en-US/toolkit/toolkit/enterprise/felt.ftl": [
     "felt-window-title",
