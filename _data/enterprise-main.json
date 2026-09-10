@@ -131,6 +131,14 @@
     "felt-error-warning-elevation-attempt-failed-contact-admin",
     "felt-warning-title-download-attempt-failed",
     "felt-error-warning-download-attempt-failed-contact-admin",
-    "felt-back-button"
+    "felt-back-button",
+    "felt-console-setup-window-title",
+    "felt-console-setup-title",
+    "felt-console-setup-description",
+    "felt-console-setup-input",
+    "felt-console-setup-invalid-address",
+    "felt-console-setup-save-failed",
+    "felt-console-setup-save-btn",
+    "felt-console-setup-quit-btn"
   ]
 }
