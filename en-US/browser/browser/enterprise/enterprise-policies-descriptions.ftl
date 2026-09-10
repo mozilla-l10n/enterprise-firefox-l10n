@@ -2,14 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-policy-BlocklistDomainBrowsedTelemetry = Enable and configure security logging/telemetry when { -brand-short-name } blocks a visit to a blocklisted domain.
 policy-ContentAnalysisTelemetry = Enable and configure security logging/telemetry when a data loss prevention (DLP) rule is triggered.
 policy-DataLossPrevention = Enable and configure built-in data loss prevention (DLP) engine.
 policy-DisableLocalPolicies = Disable all local policy sources (policies.json, Windows GPO and macOS plist).
-policy-DownloadTelemetry = Enable and configure security logging/telemetry when a download is triggered.
 policy-EnterpriseStorageEncryption = Enable enterprise-managed primary password for encrypted storage.
 policy-SecurityLogging = Enable and configure security logging/telemetry for security-relevant events.
-policy-PrintPageTelemetry = Enable and configure security logging/telemetry when a page is printed.
 policy-Sync = Enable or disable sync and define which data to include.
 policy-CrashReportsSubmit = Configure crash report submission settings.
 policy-Watermark = Display a tiled, diagonal watermark over a list of websites.
