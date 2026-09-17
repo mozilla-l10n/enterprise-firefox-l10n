@@ -2,6 +2,7 @@
   "en-US/browser/branding/enterprise/brand.ftl": [
     "-brand-shorter-name",
     "-brand-short-name",
+    "-brand-nightly-channel",
     "-brand-shortcut-name",
     "-brand-full-name",
     "-brand-product-name",
@@ -38,6 +39,8 @@
   ],
   "en-US/toolkit/toolkit/enterprise/enterprise.ftl": [
     "-enterprise-feature-access-connector",
+    "aboutdialog-managed-notice",
+    "warningdesc-version-enterprise-nightly",
     "app-basics-device-id",
     "security-software-edr",
     "security-software-disk-encryption",
