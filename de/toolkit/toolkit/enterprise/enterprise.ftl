@@ -9,6 +9,21 @@ app-basics-device-id = Gerätekennung
 # Shown in the about:support "Security Software" section on enterprise builds.
 # Endpoint Detection and Response is an industry term and must remain in English.
 security-software-edr = Endpoint Detection and Response
+# Shown in the about:support "Security Software" section on enterprise builds.
+security-software-disk-encryption = Festplattenverschlüsselung
+# All relevant storage was checked and is encrypted: the operating-system volume,
+# other mounted fixed volumes (storage areas on non-removable disks), and active
+# Linux swap (disk space used to hold memory contents). Linux boot partitions
+# mounted at /boot, /boot/efi, or /efi are excluded. This variant is used when
+# the encryption technology name is unavailable.
+security-software-disk-encryption-full = Aktiviert
+# All relevant storage was checked and is encrypted, including the operating-system
+# volume, other mounted fixed volumes, and active Linux swap. Linux boot
+# partitions mounted at /boot, /boot/efi, or /efi are excluded.
+# Variables:
+#   $method (String): Encryption technology name: "BitLocker", "FileVault",
+#   "dm-crypt", or "ZFS". Inserted unchanged; do not translate the name.
+security-software-disk-encryption-full-with-method = Aktiviert ({ $method })
 enterprise-toolbar-button =
     .label = { -brand-short-name }
     .tooltiptext = { -brand-short-name }
