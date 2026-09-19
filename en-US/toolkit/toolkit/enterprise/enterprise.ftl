@@ -133,6 +133,8 @@ enterprise-relaunch-imminent-message =
        *[other] <strong>{ -brand-short-name } will restart in { $minutes } minutes.</strong> Save your work now. Tabs will reopen.
     }
 enterprise-relaunch-restart-now = Restart now
+extension-firefox-enterprise-auto-name = { -brand-short-name } theme – auto
+extension-firefox-enterprise-auto-description = Warm blush and apricot in light mode, deep violet and indigo in dark mode.
 extension-firefox-enterprise-light-name = Firefox Enterprise Light
 extension-firefox-enterprise-light-description = A soft pastel theme with a touch of morning sunlight in the corner.
 extension-firefox-enterprise-dark-name = Firefox Enterprise Dark
