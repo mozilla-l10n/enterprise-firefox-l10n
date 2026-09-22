@@ -12,6 +12,8 @@ felt-sso-input-email =
     .label = E-mail professionnel
 felt-sso-continue-btn =
     .label = Continuer
+felt-sso-unlock-btn =
+    .label = Déverrouiller
 felt-pending-action-notification = Merci de patienter pendant le démarrage de { -brand-short-name }…
 felt-powered-by = Réalisé par { -vendor-short-name }
 # Example of resulting string: 151.0a1 (2026-04-01)
