@@ -99,6 +99,17 @@ enterprise-close-prompt-message-reauth = Per utilizzare nuovamente { -brand-shor
 enterprise-close-prompt-checkbox-label = Avvisami quando la chiusura di { -brand-short-name } comporta la disconnessione
 enterprise-close-prompt-tabs-checkbox-label = Avvisa quando si chiudono più schede
 enterprise-close-prompt-primary-btn-label = Chiudi e disconnetti
+# Shown instead of the sign-out variants when the session is locked (persisted)
+# on close rather than signed out.
+enterprise-close-prompt-message-lock = La sessione verrà bloccata.
+# Variables:
+#   $tabCount (Number): The number of tabs to be closed.
+enterprise-close-prompt-message-with-tabcount-and-lock-warning =
+    { $tabCount ->
+        [one] La sessione verrà bloccata e { $tabCount } scheda verrà chiusa.
+       *[other] La sessione verrà bloccata e { $tabCount } schede verranno chiuse.
+    }
+enterprise-close-prompt-message-with-tabcount-lock = Chiudendo { -brand-short-name } la sessione verrà bloccata.
 enterprise-quit-shortcut-prompt-title-with-tabs = Uscire da { -brand-short-name } o chiudere la scheda corrente?
 enterprise-quit-shortcut-prompt-title = Chiudere la finestra e uscire da { -brand-short-name }?
 enterprise-quit-shortcut-prompt-message = Uscendo verrai disconnesso dalla sessione e dovrai autenticarti nuovamente tramite il provider SSO della tua organizzazione.
