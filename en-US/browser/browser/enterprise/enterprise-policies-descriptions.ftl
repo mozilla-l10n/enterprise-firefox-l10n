@@ -5,7 +5,6 @@
 policy-ContentAnalysisTelemetry = Enable and configure security logging/telemetry when a data loss prevention (DLP) rule is triggered.
 policy-DataLossPrevention = Enable and configure built-in data loss prevention (DLP) engine.
 policy-DisableLocalPolicies = Disable all local policy sources (policies.json, Windows GPO and macOS plist).
-policy-EnterpriseStorageEncryption = Enable enterprise-managed primary password for encrypted storage.
 policy-SecurityLogging = Enable and configure security logging/telemetry for security-relevant events.
 policy-SignOut = Configure sign-out behavior for enterprise users.
 policy-Sync = Enable or disable sync and define which data to include.
