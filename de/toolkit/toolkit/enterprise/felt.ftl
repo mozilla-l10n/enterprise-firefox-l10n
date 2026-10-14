@@ -8,8 +8,8 @@
 felt-window-title = { -brand-short-name } – Anmeldung
 felt-sso-title = Anmelden
 felt-sso-input-email =
-    .description = Die E-Mail-Adresse Ihrer Organisation verwenden
-    .label = E-Mail-Adresse dienstlich
+    .description = Geben Sie Ihre dienstlich genutzte E-Mail-Adresse ein.
+    .label = Dienstliche E-Mail-Adresse
 felt-sso-continue-btn =
     .label = Weiter
 felt-sso-unlock-btn =
