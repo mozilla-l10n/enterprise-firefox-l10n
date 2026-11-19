@@ -30,7 +30,11 @@
     "blockedByPolicyEnterprise"
   ],
   "en-US/dom/chrome/enterprise.properties": [
-    "blockedByPolicyEnterprise"
+    "blockedByPolicyEnterprise",
+    "profileNotEncryptedButPrefOnEnterprise",
+    "profileMismatchDeleteAndContinue",
+    "profileMismatchKeepAndContinue",
+    "profileMismatchQuit"
   ],
   "en-US/toolkit/crashreporter/crashreporter-enterprise.ftl": [
     "crashreporter-policy-explanation",
@@ -53,6 +57,9 @@
     "security-software-disk-encryption-disabled",
     "security-software-disk-encryption-in-progress",
     "security-software-disk-encryption-unknown",
+    "content-analysis-agent-path-does-not-apply",
+    "content-analysis-agent-builtin-version",
+    "content-analysis-agent-builtin-version-does-not-apply",
     "enterprise-toolbar-button",
     "enterprise-panel",
     "enterprise-panel-alert",
